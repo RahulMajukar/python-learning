@@ -152,3 +152,14 @@ ordered_dict["a"] = 1
 ordered_dict["b"] = 2
 ordered_dict["c"] = 3
 print(ordered_dict)  # Output: OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+
+
+words = {
+    "madad": "Help",
+    "kursi": "Chair",
+    "billi": "Cat"
+}
+
+word = input("Enter the word you want meaning of: ")
+
+print(words[word])
